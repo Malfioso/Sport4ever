@@ -1,10 +1,9 @@
 <?php
 require('header.php');
 ?>
-
 <div class="main-content">
     <div class="presentation-team">
-        <img src="../assets/jpeg/wholesome_team.jpeg" alt="Image">
+        <img src="../../assets/jpeg/wholesome_team.jpeg" alt="Image">
     </div>
     <div class="team-info">
         <div class="history">
@@ -32,8 +31,9 @@ require('header.php');
         <div class="quote">"Dans notre association, nous avons eu l'incroyable chance de voir des légendes du football comme Maradona, Zizou et Pelé jouer au baby-foot. C'est comme si ces moments magiques étaient gravés dans notre histoire, rappelant que le sport et l'amitié sont intemporels. Sport Forever est bien plus qu'un club de baby-foot, c'est une famille où le sport nous unit à travers les générations."</div>
     </div>
     <div class="image-container">
-        <img src="../assets/jpeg/foosball_table_zizou.jpg" alt="Description de l'image">
+        <img src="../../assets/jpeg/foosball_table_zizou.jpg" alt="Description de l'image">
     </div>
 </div>
 <?php
 require('footer.php');
+?>
