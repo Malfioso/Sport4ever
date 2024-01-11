@@ -1,7 +1,7 @@
 <?php
-define('USER', "root");
-define('PASSWD', "");
-define('SERVER', "localhost");
+define('USER', "admin");
+define('PASSWD', "zouzoulakindal");
+define('SERVER', "45.145.164.72");
 define('BASE', "babyfoot");
 
 
