@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Pour gérer la disposition plus facilement */
+    font-family: inherit; /* Pour une cohérence de la police de caractères */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: linear-gradient(to bottom, #FF1A51, #FF6610);
+}
+
+/* nav bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 20%;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+}
+
+.nav-center {
+
+}
+
+.nav-center img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f2f2f2;
+}
+
+.btn img {
+    height: 20px; /* Adjust size of SVGs inside buttons */
+    width: auto;
+}
+
+/* form style */
+
+form {
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    width: auto;
+    min-width: 400px; /* minimum width */
+    max-width: 80%; /* maximum width */
+    display: inline-block; /* adjust width based on content */
+}
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder {
+    color: #e5e5e5;
+}
+button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

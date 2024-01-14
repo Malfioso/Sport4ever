@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.match-card {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.match-card {
+    background-color: #5C3D99; /* Purple background */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block; /* or flex for a different layout */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px; /* Adjust as needed */
+    font-weight: bold; /* Makes the text thicker */
+}
+
+.match-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.match-date, .match-league {
+    display: block;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-logo {
+    width: 160px; /* Logo size */
+    height: 160px; /* Logo size */
+    margin: 0 auto 10px;
+    background-size: cover;
+}
+
+.team-vs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-name {
+    margin-top: 10px;
+}
+
+.vs {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 10px;
+}
+
+.match-score {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.match-score span {
+    color: #A31621;
+}
+
+.match-time {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.match-detail-link {
+    text-align: center;
+    display: block;
+    background-color: #E52D27; /* Red button */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
